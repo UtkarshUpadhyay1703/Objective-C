@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8476C68C2A29B1DA00656078 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8476C68B2A29B1DA00656078 /* AppDelegate.m */; };
+		8476C68F2A29B1DA00656078 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8476C68E2A29B1DA00656078 /* ViewController.m */; };
+		8476C6912A29B1DC00656078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8476C6902A29B1DC00656078 /* Assets.xcassets */; };
+		8476C6942A29B1DC00656078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8476C6922A29B1DC00656078 /* Main.storyboard */; };
+		8476C6962A29B1DC00656078 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8476C6952A29B1DC00656078 /* main.m */; };
+		8476C69F2A29B29D00656078 /* ChatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8476C69E2A29B29D00656078 /* ChatManager.m */; };
+		8476C6A52A29B38B00656078 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8476C6A42A29B38B00656078 /* LoginViewController.m */; };
+		8476C6AD2A29B40000656078 /* TeacherChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8476C6AB2A29B40000656078 /* TeacherChatViewController.m */; };
+		8476C6AE2A29B40000656078 /* TeacherChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8476C6AC2A29B40000656078 /* TeacherChatViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8476C6872A29B1DA00656078 /* Chat App New Teacher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chat App New Teacher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8476C68A2A29B1DA00656078 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8476C68B2A29B1DA00656078 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8476C68D2A29B1DA00656078 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8476C68E2A29B1DA00656078 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8476C6902A29B1DC00656078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8476C6932A29B1DC00656078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8476C6952A29B1DC00656078 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8476C6972A29B1DC00656078 /* Chat_App_New_Teacher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chat_App_New_Teacher.entitlements; sourceTree = "<group>"; };
+		8476C69D2A29B29D00656078 /* ChatManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatManager.h; sourceTree = "<group>"; };
+		8476C69E2A29B29D00656078 /* ChatManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatManager.m; sourceTree = "<group>"; };
+		8476C6A32A29B38B00656078 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8476C6A42A29B38B00656078 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8476C6AA2A29B40000656078 /* TeacherChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeacherChatViewController.h; sourceTree = "<group>"; };
+		8476C6AB2A29B40000656078 /* TeacherChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeacherChatViewController.m; sourceTree = "<group>"; };
+		8476C6AC2A29B40000656078 /* TeacherChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeacherChatViewController.xib; sourceTree = "<group>"; };
+		8476C6D32A29BE0D00656078 /* ChatManagerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatManagerProtocol.h; sourceTree = "<group>"; };
+		8476C6D42A29BEF700656078 /* ChatManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatManagerDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8476C6842A29B1DA00656078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8476C67E2A29B1D900656078 = {
+			isa = PBXGroup;
+			children = (
+				8476C6892A29B1DA00656078 /* Chat App New Teacher */,
+				8476C6882A29B1DA00656078 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8476C6882A29B1DA00656078 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8476C6872A29B1DA00656078 /* Chat App New Teacher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8476C6892A29B1DA00656078 /* Chat App New Teacher */ = {
+			isa = PBXGroup;
+			children = (
+				8476C68A2A29B1DA00656078 /* AppDelegate.h */,
+				8476C68B2A29B1DA00656078 /* AppDelegate.m */,
+				8476C68D2A29B1DA00656078 /* ViewController.h */,
+				8476C68E2A29B1DA00656078 /* ViewController.m */,
+				8476C69D2A29B29D00656078 /* ChatManager.h */,
+				8476C69E2A29B29D00656078 /* ChatManager.m */,
+				8476C6AA2A29B40000656078 /* TeacherChatViewController.h */,
+				8476C6AB2A29B40000656078 /* TeacherChatViewController.m */,
+				8476C6AC2A29B40000656078 /* TeacherChatViewController.xib */,
+				8476C6A32A29B38B00656078 /* LoginViewController.h */,
+				8476C6A42A29B38B00656078 /* LoginViewController.m */,
+				8476C6D32A29BE0D00656078 /* ChatManagerProtocol.h */,
+				8476C6D42A29BEF700656078 /* ChatManagerDelegate.h */,
+				8476C6902A29B1DC00656078 /* Assets.xcassets */,
+				8476C6922A29B1DC00656078 /* Main.storyboard */,
+				8476C6952A29B1DC00656078 /* main.m */,
+				8476C6972A29B1DC00656078 /* Chat_App_New_Teacher.entitlements */,
+			);
+			path = "Chat App New Teacher";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8476C6862A29B1DA00656078 /* Chat App New Teacher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8476C69A2A29B1DC00656078 /* Build configuration list for PBXNativeTarget "Chat App New Teacher" */;
+			buildPhases = (
+				8476C6832A29B1DA00656078 /* Sources */,
+				8476C6842A29B1DA00656078 /* Frameworks */,
+				8476C6852A29B1DA00656078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chat App New Teacher";
+			productName = "Chat App New Teacher";
+			productReference = 8476C6872A29B1DA00656078 /* Chat App New Teacher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8476C67F2A29B1D900656078 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8476C6862A29B1DA00656078 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8476C6822A29B1D900656078 /* Build configuration list for PBXProject "Chat App New Teacher" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8476C67E2A29B1D900656078;
+			productRefGroup = 8476C6882A29B1DA00656078 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8476C6862A29B1DA00656078 /* Chat App New Teacher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8476C6852A29B1DA00656078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8476C6912A29B1DC00656078 /* Assets.xcassets in Resources */,
+				8476C6942A29B1DC00656078 /* Main.storyboard in Resources */,
+				8476C6AE2A29B40000656078 /* TeacherChatViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8476C6832A29B1DA00656078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8476C68F2A29B1DA00656078 /* ViewController.m in Sources */,
+				8476C6962A29B1DC00656078 /* main.m in Sources */,
+				8476C6AD2A29B40000656078 /* TeacherChatViewController.m in Sources */,
+				8476C6A52A29B38B00656078 /* LoginViewController.m in Sources */,
+				8476C68C2A29B1DA00656078 /* AppDelegate.m in Sources */,
+				8476C69F2A29B29D00656078 /* ChatManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8476C6922A29B1DC00656078 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8476C6932A29B1DC00656078 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8476C6982A29B1DC00656078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8476C6992A29B1DC00656078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8476C69B2A29B1DC00656078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Chat App New Teacher/Chat_App_New_Teacher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faronics.Chat-App-New-Teacher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		8476C69C2A29B1DC00656078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Chat App New Teacher/Chat_App_New_Teacher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faronics.Chat-App-New-Teacher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8476C6822A29B1D900656078 /* Build configuration list for PBXProject "Chat App New Teacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8476C6982A29B1DC00656078 /* Debug */,
+				8476C6992A29B1DC00656078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8476C69A2A29B1DC00656078 /* Build configuration list for PBXNativeTarget "Chat App New Teacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8476C69B2A29B1DC00656078 /* Debug */,
+				8476C69C2A29B1DC00656078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8476C67F2A29B1D900656078 /* Project object */;
+}
