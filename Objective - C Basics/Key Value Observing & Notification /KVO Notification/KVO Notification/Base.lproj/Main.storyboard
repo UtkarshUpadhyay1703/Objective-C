@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MEy-2Q-5bD">
+                                <rect key="frame" x="114" y="124" width="165" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="emailChangedAction:" destination="BYZ-38-t0r" eventType="editingChanged" id="nQf-gO-tBm"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="KVO Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zKH-bZ-Sil">
+                                <rect key="frame" x="114" y="183" width="165" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Notification" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z0Q-pO-voT">
+                                <rect key="frame" x="114" y="263" width="165" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="MEy-2Q-5bD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="114" id="0iv-s5-Mep"/>
+                            <constraint firstItem="MEy-2Q-5bD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0w7-sA-cYl"/>
+                            <constraint firstItem="z0Q-pO-voT" firstAttribute="leading" secondItem="zKH-bZ-Sil" secondAttribute="leading" id="CHc-AT-BIH"/>
+                            <constraint firstItem="zKH-bZ-Sil" firstAttribute="leading" secondItem="MEy-2Q-5bD" secondAttribute="leading" id="IL5-pq-LBP"/>
+                            <constraint firstItem="MEy-2Q-5bD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="65" id="lCO-di-UI1"/>
+                            <constraint firstItem="z0Q-pO-voT" firstAttribute="trailing" secondItem="zKH-bZ-Sil" secondAttribute="trailing" id="pTI-nE-XME"/>
+                            <constraint firstItem="z0Q-pO-voT" firstAttribute="top" secondItem="zKH-bZ-Sil" secondAttribute="bottom" constant="46" id="uE4-9W-m8a"/>
+                            <constraint firstItem="zKH-bZ-Sil" firstAttribute="top" secondItem="MEy-2Q-5bD" secondAttribute="bottom" constant="25" id="ywz-4B-V4w"/>
+                            <constraint firstItem="zKH-bZ-Sil" firstAttribute="trailing" secondItem="MEy-2Q-5bD" secondAttribute="trailing" id="zOM-Je-r62"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailOutlet" destination="MEy-2Q-5bD" id="koe-CB-MWy"/>
+                        <outlet property="kVOName" destination="zKH-bZ-Sil" id="eTH-cR-a9h"/>
+                        <outlet property="notificationOutlet" destination="z0Q-pO-voT" id="eL8-DO-APe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

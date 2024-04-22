@@ -36,19 +36,19 @@ int main(int argc, const char * argv[]) {
             if([class1 respondsToSelector:@selector(print)]) [class1 print];
         }
         
-//        NSString *text;
-//        [text uppercaseString];
-//        NSLog(@"%@",text);
+        //        NSString *text;
+        //        [text uppercaseString];
+        //        NSLog(@"%@",text);
         
         
-//        @try {
-//            id runTimeError=[[NSDate alloc]init];
-//            [runTimeError uppercaseString];
-//        } @catch (NSException *exception) {
-//            NSLog(@"%@",exception);
-//        } @finally {
-//            NSLog(@"Just kidding");
-//        }
+        //        @try {
+        //            id runTimeError=[[NSDate alloc]init];
+        //            [runTimeError uppercaseString];
+        //        } @catch (NSException *exception) {
+        //            NSLog(@"%@",exception);
+        //        } @finally {
+        //            NSLog(@"Just kidding");
+        //        }
         
     }
     return 0;

@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
     int number2;
     NSDate *date1;
 }
+
 @property int number1;
 @property int number2;
 @property NSDate *date1;
