@@ -7,7 +7,8 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface ViewController : NSViewController<NSTableViewDataSource, NSTableViewDelegate>
+//@interface ViewController : NSViewController<NSTableViewDataSource, NSTableViewDelegate>
+@interface ViewController : NSViewController
 
 @property (weak) IBOutlet NSTableView *tableView;
 @property (strong) NSMutableArray *personList;

@@ -18,6 +18,7 @@ int main(int argc,const char * argv[])
     @autoreleasepool {
         NSString * text=@"The quick brown fox jumped over the lazy dog";
         NSLog(@"The sentence is = %@",[text convertSpaces]);
+		[[NSRunLoop currentRunLoop] run];
         
     }
     return 0;

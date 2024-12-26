@@ -60,7 +60,7 @@
 }
 
 - (IBAction)twoFactorAction:(id)sender {
-	UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+//	UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
 	TwoFactorAuthentication *twoFactorViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Two_factor"];
 //	[self presentViewController:twoFactorViewController animated:YES completion:nil];
 	[self.navigationController pushViewController:twoFactorViewController animated:YES];

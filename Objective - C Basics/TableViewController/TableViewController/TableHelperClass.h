@@ -11,7 +11,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TableHelperClass : NSObject <NSTableViewDelegate,NSTableViewDataSource>
+//@interface TableHelperClass : NSObject <NSTableViewDelegate,NSTableViewDataSource>
+@interface TableHelperClass : NSObject
 
 @property (strong) NSArray * allBooks;
 
