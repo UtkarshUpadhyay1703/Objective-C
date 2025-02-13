@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//  IP Try
+//  RightClickApplication
 //
-//  Created by admin on 6/1/23.
+//  Created by admin on 2/4/25.
 //
 
 #import <Cocoa/Cocoa.h>
